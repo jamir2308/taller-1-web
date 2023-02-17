@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+header  img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    height: 45vh;
+}
+
+
+footer {
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+    font-size: 24px;
+    font-weight: bold;
+}
